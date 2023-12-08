@@ -1,5 +1,11 @@
-void main() {
-  print("gitHub Connected");
+import 'dart:io';
 
-  print("livetest");
+void main() {
+  var input = stdin.readLineSync();
+
+  var inputed = (input);
+
+  print("your inputed $inputed");
+
+  return main();
 }
